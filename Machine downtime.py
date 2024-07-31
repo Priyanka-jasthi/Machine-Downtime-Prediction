@@ -26,9 +26,9 @@ from sqlalchemy import create_engine
 downtime = pd.read_csv(r"D:\Project (Machine Downtime)\Data Set\Machine Downtime.csv")
 
 # Creating engine which connect to MySQL
-user = 'root' # user name
-pw = 'priyanka' # password
-db = 'downtime_db' # database
+user =  # user name
+pw =  # password
+db =  # database
 
 # creating engine to connect database
 engine = create_engine(f"mysql+pymysql://{user}:{pw}@localhost/{db}")
